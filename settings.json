@@ -1,0 +1,164 @@
+{
+  // Security
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  // Javascript
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font" /* "JetBrainsMono Nerd Font" "FiraCode Nerd Font" */,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.gpuAcceleration": "off",
+  // Editor
+  "editor.fontFamily": "JetBrainsMono Nerd Font" /* "Fira Code Retina" */,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "editor.tabSize": 2,
+  "[java]": {
+    "editor.tabSize": 4,
+  },
+  "[haskell]": {
+    "editor.tabSize": 4,
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+  },
+  "editor.quickSuggestions": {
+  "strings": "on"
+  },
+  "files.associations": {
+  "*.css": "tailwindcss"
+  },
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "expand",
+  "editor.stickyScroll.enabled": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.fontVariations": false,
+  "editor.detectIndentation": false,
+  "editor.renderLineHighlight": "line",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "never"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini"
+      }
+    ]
+  },
+  "breadcrumbs.enabled": true,
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoCheckUpdates": true,
+  // Material Icon Theme
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "domain": "class",
+    "entities": "class",
+    "eslint-config": "tools",
+    "factories": "class",
+    "fakes": "mock",
+    "grpc": "pipe",
+    "http": "container",
+    "implementations": "core",
+    "infra": "app",
+    "kafka": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "mappers": "meta",
+    "migrations": "tools",
+    "modules": "components",
+    "protos": "pipe",
+    "protocols": "contract",
+    "providers": "include",
+    "repositories": "mappings",
+    "schemas": "class",
+    "subscribers": "messages",
+    "typeorm": "database",
+    "use-cases": "functions",
+    "useCases": "functions",
+    "view-models": "views",
+    "websockets": "pipe",
+    "_shared": "shared"
+  },
+  "symbols.files.associations": {
+    "*.d.ts": "tsconfig",
+    "tsconfig.json": "brackets-blue"
+  },
+  "material-icon-theme.files.associations": {
+    ".proto": "3d",
+    ".webpack.js": "webpack",
+    ".prettierrc": "json",
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "javascriptreact": "javascriptreact",
+    "mardkown": "html"
+  },
+  // Git & GitHub
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "git.allowForcePush": false,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "icons",
+  "workbench.colorTheme": "Omni",
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "files.autoGuessEncoding": true,
+  "indentRainbow.colorOnWhiteSpaceOnly": false,
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  // the same colors as above but more visible
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)",
+    "rgba(127,255,127,0.3)"
+  ],
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "explorer.compactFolders": false,
+  "haskell.manageHLS": "GHCup"
+}
