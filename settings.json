@@ -24,10 +24,10 @@
     "editor.tabSize": 4,
   },
   "editor.quickSuggestions": {
-  "strings": "on"
+    "strings": "on"
   },
   "files.associations": {
-  "*.css": "tailwindcss"
+    "*.css": "tailwindcss"
   },
   "editor.fontLigatures": true,
   "editor.cursorStyle": "line-thin",
@@ -133,7 +133,6 @@
   "gitlens.codeLens.enabled": false,
   "git.allowForcePush": false,
   "git.confirmSync": false,
-  "workbench.iconTheme": "icons",
   "workbench.colorTheme": "Omni",
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
@@ -160,5 +159,6 @@
     "scminput": false
   },
   "explorer.compactFolders": false,
-  "haskell.manageHLS": "GHCup"
+  "haskell.manageHLS": "GHCup",
+  "workbench.iconTheme": "helium-icon-theme"
 }
